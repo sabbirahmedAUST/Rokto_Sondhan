@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".add_ambulance">
+
+    <Button
+        android:id="@+id/button_back6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:background="#000000"
+        android:text="Back"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="382dp"
+        android:layout_height="522dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="111dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/wbg" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:background="#ffffff"
+        android:textAlignment="gravity"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Name"
+        app:layout_constraintEnd_toStartOf="@+id/driver_name_id"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="205dp"
+        android:background="#ffffff"
+        android:textAlignment="gravity"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Phone"
+        app:layout_constraintEnd_toStartOf="@+id/driver_name_id"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="295dp"
+        android:background="#ffffff"
+        android:textAlignment="gravity"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="District"
+        app:layout_constraintEnd_toStartOf="@+id/driver_name_id"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/driver_name_id"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/rectangle"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/phone_id"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/rectangle"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/district_id"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/rectangle"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/save_id"
+        android:background="@drawable/loginbutton"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_width="280dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="430dp"
+        android:text="SAVE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/district_id" />
+
+
+
+</RelativeLayout>

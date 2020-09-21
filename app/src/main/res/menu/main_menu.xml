@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_ambulance"
+            android:icon="@drawable/ic_car"
+            android:title="Ambulance" />
+        <item
+            android:id="@+id/nav_bus"
+            android:icon="@drawable/ic_car"
+            android:title=" Add Ambulance" />
+
+
+
+
+    </group>
+
+
+    <item android:title="Profile">
+
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="Logout" />
+
+            </group>
+
+
+
+    </item>
+
+
+    <item android:title="Communicate">
+
+        <menu>
+            <item
+                android:id="@+id/nav_aboutus"
+                android:title="About us"
+                android:icon="@drawable/about"
+                />
+"
+
+        </menu>
+
+
+    </item>
+
+</menu>

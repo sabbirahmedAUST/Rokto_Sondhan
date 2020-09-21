@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff6961"
+    tools:context=".About_us">
+
+    <Button
+        android:id="@+id/button_back14"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:background="#ff6961"
+        android:text="Back"
+
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Name:Anamul Hasan Dhusor                    Id:17.01.04.006"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:layout_marginTop="100dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Name:Sabbir Rahman                                 Id:17.01.04.011"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:layout_marginTop="200dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Name:Jarin Tasnim                                         Id:17.01.04.022"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:layout_marginTop="300dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Name:Lamia Anjum                                        Id:17.01.04.023"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:layout_marginTop="400dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+
+</RelativeLayout>

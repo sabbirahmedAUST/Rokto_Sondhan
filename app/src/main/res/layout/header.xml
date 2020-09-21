@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="#FABD05"
+    android:gravity="bottom"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/blood"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rokto Shondhan"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/drawer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anamul"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

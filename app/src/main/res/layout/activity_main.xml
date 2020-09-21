@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/button_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="250sp"
+        android:background="#000000"
+        android:gravity="right"
+        android:text="@string/B0"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center_horizontal"
+        android:text="@string/Heading"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#D50000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/htext"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+
+        android:gravity="center_horizontal" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+
+        android:scaleType="fitXY"
+        android:src="@drawable/blood" />
+
+
+    <Button
+        android:id="@+id/login_id"
+        android:layout_width="249dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="40sp"
+        android:background="@drawable/rbutton1"
+        android:text="LOGIN
+"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fb_id" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/htext1"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginRight="20sp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/create_id"
+        android:layout_width="249dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/rbutton1"
+        android:text="@string/B3"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_id" />
+</LinearLayout>

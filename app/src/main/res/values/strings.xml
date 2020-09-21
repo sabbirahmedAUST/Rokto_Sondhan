@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Rokto Shondhan</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="drawer_open">open drawer</string>
+    <string name="drawer_close">close drawer</string>
+
+    <string name="B1">LOGIN WITH FACEBOOK</string>
+    <string name="B2">LOGIN WITH NUMBER</string>
+    <string name="B0">Skip</string>
+    <string name="htext1">NOT A MEMBER YET?</string>
+    <string name="B3">CREATE YOUR ACCOUNT</string>
+    <string name="name">Name</string>
+    <string name="text">DO YOU WANT TO DONATE BLOOD?</string>
+    <string name="address">ADDRESS</string>
+    <string name="Heading">Rokto shondhan</string>
+    <string name="htext">A PLATEFORM WHERE ONE CAN FIND OR DONATE BLOOD</string>
+
+    <string name="about_us1">Name:Anamul Hasan Dhusor
+
+        Id:17.01.04.006</string>
+
+
+</resources>

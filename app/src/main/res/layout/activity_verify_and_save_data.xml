@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Verify_and_save_data">
+    <Button
+        android:id="@+id/home_id"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:drawableTop="@drawable/ic_action_home"
+        />
+
+
+    <ImageView
+        android:layout_width="343dp"
+        android:layout_height="454dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="30dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/wbg" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:background="#ffffff"
+        android:text="VERIFICATION CODE"
+        android:textAlignment="gravity"
+        android:layout_marginLeft="80dp"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/code_id"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/rectangle"
+        android:padding="5dp"
+        >
+
+
+    </EditText>
+
+
+    <Button
+        android:id="@+id/submit_id"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/loginbutton"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="SUBMIT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/send_otp_id" />
+
+    <Button
+        android:id="@+id/send_otp_id"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/loginbutton"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="SEND OTP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/code_id" />
+
+    <Button
+        android:id="@+id/verify_id"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/loginbutton"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="VERIFY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/send_otp_id" />
+
+
+
+</RelativeLayout>
