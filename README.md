@@ -42,8 +42,13 @@ It is encouraged to use latest version of Andriod Studio (4.0 or above) & sdk ve
   V. Now check Firebase is connected.You are good to go.
 	
  <img src="img/f5.png" />
-			 
-3. Now sync the project. Build & Run.It should be good to go.
+
+3. Go to **Files->Project Structure**. Look for Andriod Ndk Location. If its not downloaded,click download.
+
+<img src="img/f5.png" />
+
+
+4. Now sync the project. Build & Run.It should be good to go.
 
 
 
