@@ -57,7 +57,8 @@ It is encouraged to use latest version of Andriod Studio (4.0 or above) & sdk ve
 
 
 # What if my andriod studio isn't upto date/ Showing error?
-You have to follow given steps to run project successfuly.
+Only try this when its shows graddle/sync error due to SDK/ gradle compability.Ifupdaing sdk toools doesnt solve 
+the problem,you have to follow given steps to run project successfuly.
 
 1. First open the project directry.Delete gradle,gradlew files shown in the picture
 
