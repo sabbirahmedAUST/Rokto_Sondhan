@@ -33,9 +33,8 @@ It is encouraged to use latest version of Andriod Studio (4.0 or above) & sdk ve
  <img src="img/f2.png" />
      III.  In your default browser Google Signin page will appear.USE_
      
-  email:developer.aust@gmail.com
-	
-  password:developer@aust39
+     email:  developer.aust@gmail.com
+  password:  developer@aust39
      
  <img src="img/f3.png" />
 
