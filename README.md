@@ -6,6 +6,10 @@ Rokto Sondhan is an app for finding & donating Blood in emergency situations acc
 It is an open source Android application that allows people to search for Blood around their location.It also
 provides emergency ambulence service,Reminds donor about his next donation.
 
+# Some ScreenShots of the App
+
+<img src="img/s1.jpg" width="300" />   <img src="img/s2.jpeg" width="300" />    <img src="img/s3.jpeg" width="300" />
+
 # Libraries this app uses:
 
 1. Firebase - https://firebase.google.com/ 
