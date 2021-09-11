@@ -1,5 +1,8 @@
 # Rokto Sondhan
 Rokto Sondhan is an app for finding & donating Blood in emergency situations according to your location.
+<p align="center">
+  <img width="260" src="img/splasgScreen.gif">
+</p>
 
 
 ### What does this app do?
