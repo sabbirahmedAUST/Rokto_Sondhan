@@ -1,31 +1,42 @@
 # Rokto Sondhan
-Rokto Sondhan is an app for finding & donating Blood in emergency situations according to your location.
+Rokto Sondhan is an app for finding & donating Blood in emergency situations according to your location.Full app preview 
+
+[Rokto Sondhan][rs]
 <p align="center">
-  <img width="260" src="img/splasgScreen.gif">
+	<img alt="splas" width="260px" src="img/splashScreen.gif" />
+ 
 </p>
 
+---
 
 ### What does this app do?
 It is an open source Android application that allows people to search for Blood around their location.It also
 provides emergency ambulence service,Reminds donor about his next donation.
 
+----
+
 ### App Interface
-<p float="left">
+<p align="center">
   <img src="img/s1.jpg" width="200" />
   <img src="img/s2.jpeg" width="200" /> 
   <img src="img/s3.jpeg" width="200" />
   <img src="img/s4.png" width="200" />	
 </p>
----
+
+
+----
 
 ### Libraries & Tools Used
+[<img align="left" alt="as" width="26px" src="img/as.png" />][as]
+[<img align="left" alt="firebase" width="26px" src="img/firebase.png" />][firebase]
+[<img align="left" alt="java" width="26px" src="img/java.gif" />][java]
 
+<br /> 
 
-
+---
 
 ### Setup
-
-It is encouraged to use latest version of Andriod Studio (4.0 or above) & sdk version 29
+It is encouraged to use latest version of **Andriod Studio (4.0 or above) & sdk version 29**
 
 <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
 <details>
@@ -67,6 +78,8 @@ It is encouraged to use latest version of Andriod Studio (4.0 or above) & sdk ve
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ---
+
+
 #### What if my andriod studio isn't upto date/ Showing error?
 
 <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
@@ -101,5 +114,7 @@ the problem,you have to follow given steps to run project successfuly.
 </details>
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-
-
+[as]: https://github.com/sabbirahmedAUST/Rokto_Sondhan/tree/master/img/as.png
+[firebase]: https://github.com/sabbirahmedAUST/Rokto_Sondhan/tree/master/img/firebase.png
+[java]: https://github.com/sabbirahmedAUST/Rokto_Sondhan/tree/master/img/java.gif
+[rs]: https://github.com/sabbirahmedAUST/Rokto_Sondhan/tree/master/img/rs.mp4
