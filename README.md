@@ -13,17 +13,19 @@ provides emergency ambulence service,Reminds donor about his next donation.
   <img src="img/s3.jpeg" width="200" />
   <img src="img/s4.png" width="200" />	
 </p>
+---
+
+### Libraries & Tools Used
 
 
-# Libraries this app uses:
-
-1. Firebase - https://firebase.google.com/ 
 
 
-# Setup
+### Setup
 
 It is encouraged to use latest version of Andriod Studio (4.0 or above) & sdk version 29
 
+<!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
+<details>
 1.  Clone or download this repo.
 2. 	This app runs off a Firebase backend. You will need to generate your firebase backend. To do this, navigate to https://firebase.google.com/ and sign up. 
    Or follow the following steps:
@@ -58,10 +60,15 @@ It is encouraged to use latest version of Andriod Studio (4.0 or above) & sdk ve
 
 4. Now sync the project. Build & Run.It should be good to go.
 
+</details>
+<!-- AUTO-GENERATED-CONTENT:END -->
 
+---
+#### What if my andriod studio isn't upto date/ Showing error?
 
-
-# What if my andriod studio isn't upto date/ Showing error?
+<!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
+<details>
+	
 Only try this when its shows graddle/sync error due to SDK/ gradle compability.Ifupdaing sdk toools doesnt solve 
 the problem,you have to follow given steps to run project successfuly.
 
@@ -88,7 +95,8 @@ the problem,you have to follow given steps to run project successfuly.
 
 5. Now open the project in Andiod Studio.The problem should be solved. 
 
-
+</details>
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 
 
